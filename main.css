@@ -1,0 +1,114 @@
+/* common elements */
+body {
+    font-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(19, 18, 29);
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+a, a:visited{
+    color: #c64322;
+}
+a:hover{
+    color: #333;
+}
+
+/* Header */
+header{
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background-image: url(./assets/Slider_Champion_2021_AL_1920x900.progressive.png.jpg);
+}
+
+header h1 {
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+}
+
+/* Nav Bar */
+nav {
+    color: #333;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav#top ul li button.cart{
+    background: gray;
+    width: 12px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #c64322;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover{
+    color: #c64322;
+    background-color: rgba(252,251,243,0.75);
+}
+nav#top{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    height: 1.3em;
+}
+nav#top li{
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#top ul li.acctNav a, nav#top ul li.acctNav a:visited{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#top ul li.acctNav a.active{
+    background-color: #ffef0a;
+}
+
+nav#top ul li.actNav a:hover{
+    background-color: rgba(252,251,243,0.7);
+    color: #ffef0a;
+}
+
+nav#top ul li input#search-bar{
+    vertical-align: left;
+    margin: 0 0 0 1.0em;
+}
